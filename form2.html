@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Formulaires</title>
+    <link rel="stylesheet" href="./css/form2.css">
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Personal</legend>
+            <ul>
+                <li>
+                    <label for="name">Name <sup>&#8277;</sup></label>
+                    <input required type="text" name="first" />
+                </li>
+
+                <li>
+                    <label for="email">Email <sup>&#8277;</sup></label>
+                    <input required type="email" name="email" id="email" />
+                </li>
+                <li>
+
+                    <label for="phone">Phone <sup>&#8277;</sup></label>
+                    <input required type="tel" name="tel" id="phone" />
+                </li>
+                <li>
+                    <label for="subject">Subject</label>
+                    <select name="" value="">
+                        <option>Appointment</option>
+                    </select>
+                </li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>Message</legend>
+            <ul>
+                <li>
+                    <label for="message">Message<sup>&#8277;</sup></label>
+                    <textarea required name="message"></textarea>
+                </li>
+                <p><button type="submit" name="submit">Submit</button></p>
+            </ul>
+        </fieldset>
+    </form>
+</body>
+
+</html>
