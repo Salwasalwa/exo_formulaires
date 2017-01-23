@@ -1,0 +1,23 @@
+body {
+    margin: auto;
+}
+form {
+    width: 700px;
+    margin-left: 50px;
+}
+label {
+    display: block;
+    font-weight: bold;
+}
+textarea {
+    width: 500px;
+    height: 150px;
+}
+
+button {
+    display: inline-block;
+    background-color: rgb(65, 138, 236);
+    color: white;
+    height: 40px;
+    width: 80px;
+}

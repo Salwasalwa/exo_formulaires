@@ -3,24 +3,25 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Titre de la page</title>
+    <title>Formulaires</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
     <form>
-        <label for="name">Full Name</label>
-        <input type="text" name="first"  placeholder="First" />
-        <input type="text" name="last" placeholder="Last" />
+        <label for="name">Full Name <sup>&#8277;</sup></label>
+        <input required type="text" name="first"  placeholder="First" />
+        <input required type="text" name="last" placeholder="Last" />
 
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email" />
+        <label for="email">Email <sup>&#8277;</sup></label>
+        <input required type="email" name="email" id="email" />
         <label for="subject">Subject</label>
         <select name="" value="">
             <option>Advertise</option>
         </select>
-        <textarea name="message">Your Message</textarea>
-        <button type="submit" name="submit" value="Submit"></button>
+        <label for="message">Your Message <sup>&#8277;</sup></label>
+        <textarea required name="message"></textarea>
+        <button type="submit" name="submit">Submit</button>
     </form>
 </body>
 
