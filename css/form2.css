@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    font-family: 'Josefin Sans', sans-serif;
 }
 form {
     background-color: white;
@@ -9,15 +10,50 @@ form {
 fieldset {
     background-color: rgb(242, 196, 224);
     color: rgb(208, 72, 141);
-    border:rgb(208, 72, 141);
+    border-color:rgb(208, 72, 141);
+    margin-bottom: 1em;
+    font-weight: bold;
 }
-input, textarea {
+legend {
     background-color: rgb(242, 196, 224);
+    border:1px solid rgb(208, 72, 141);
+    border-bottom: none;
+    padding: 5px;
+    font-weight: lighter;
+}
+input, textarea, select {
+    background-color: rgb(242, 196, 224);
+    border:1px solid rgb(208, 72, 141);
+    margin-left: 5em;
+    vertical-align: top;
+
 }
 button {
     background-color: rgb(208, 72, 141);
     color: white;
+    margin-left: 140px;
+    border:1px solid rgb(208, 72, 141);
+    border-radius: 5px;
+    height: 30px;
+
+}
+ul {
+    margin: 0;
+    padding: 0;
+    padding-left: 1em;
 }
 li {
     list-style: none;
+    margin-top: 1em;
+}
+select {
+    color: rgb(208, 72, 141);
+    width: 238px;
+}
+textarea {
+    width: 300px;
+    height: 100px;
+}
+sup {
+    color: red;
 }
