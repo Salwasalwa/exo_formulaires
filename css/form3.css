@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+}
+
+form {
+    background-color: rgb(19, 73, 166);
+    margin: auto;
+    width: 800px;
+    color: white;
+}
+li {
+    list-style: none;
+    display: inline-block;
+    width: 25%;
+
+}
+label {
+    margin-right: 3em;
+
+}
+input, textarea{
+    border: none;
+    background-color: rgb(19, 73, 166);
+    border-bottom: 1px dashed white;
+    width: 450px;
+    height: 30px;
+}
+ button {
+     margin-left: 180px;
+     background-color: rgb(112, 165, 208);
+     color: white;
+     border-radius: 5px;
+     border: none;
+     height: 35px;
+ }
