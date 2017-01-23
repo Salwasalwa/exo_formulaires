@@ -8,11 +8,28 @@ form {
 }
 legend {
     font-weight: bold;
+    border-bottom: 2px solid rgb(159, 159, 164);
 }
 li {
     display: inline-block;
     width: 700px;
+
 }
 label {
     margin-right: 5em;
+}
+input[type="text"] {
+    margin-left: 2em;
+}
+sup {
+    color: red;
+}
+textarea {
+    width: 300px;
+    height: 100px;
+}
+button {
+    background-color: rgb(244, 130, 12);
+    color: white;
+    margin-left: 170px;
 }
