@@ -1,0 +1,18 @@
+body {
+    background-color: black;
+}
+form {
+    margin: auto;
+    background-color: white;
+    width: 800px;
+}
+legend {
+    font-weight: bold;
+}
+li {
+    display: inline-block;
+    width: 700px;
+}
+label {
+    margin-right: 5em;
+}

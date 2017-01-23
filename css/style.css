@@ -1,13 +1,31 @@
 body {
-    margin: auto;
+    background-color: black;
 }
 form {
     width: 700px;
-    margin-left: 50px;
+    margin: auto;
+    padding-left: 2em;
+    background-color: white;
 }
 label {
     display: block;
     font-weight: bold;
+    padding: 2px;
+}
+input, option {
+    width: 500px;
+    height: 25px;
+}
+
+input[type="text"] {
+    width: 240px;
+}
+sup {
+    color: red;
+}
+
+select {
+    background-color: rgb(157, 163, 172);
 }
 textarea {
     width: 500px;
@@ -15,9 +33,9 @@ textarea {
 }
 
 button {
-    display: inline-block;
     background-color: rgb(65, 138, 236);
     color: white;
     height: 40px;
     width: 80px;
+
 }
