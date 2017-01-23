@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+}
+form {
+    background-color: white;
+    margin: auto;
+    width: 800px;
+}
+fieldset {
+    background-color: rgb(242, 196, 224);
+    color: rgb(208, 72, 141);
+    border:rgb(208, 72, 141);
+}
+input, textarea {
+    background-color: rgb(242, 196, 224);
+}
+button {
+    background-color: rgb(208, 72, 141);
+    color: white;
+}
+li {
+    list-style: none;
+}

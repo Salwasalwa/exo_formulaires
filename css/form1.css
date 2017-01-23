@@ -13,13 +13,17 @@ legend {
 li {
     display: inline-block;
     width: 700px;
-
+    margin-top: 1em;
 }
 label {
     margin-right: 5em;
 }
-input[type="text"] {
-    margin-left: 2em;
+input[type="text"], #email {
+    margin-left: 1.4em;
+}
+input[type="tel"] {
+    width: 40px;
+
 }
 sup {
     color: red;
@@ -28,8 +32,15 @@ textarea {
     width: 300px;
     height: 100px;
 }
+select {
+    background-color: rgb(161, 163, 154);
+    width: 150px;
+    height: 40px;
+}
 button {
     background-color: rgb(244, 130, 12);
     color: white;
     margin-left: 170px;
+    height: 35px;
+    border-radius: 7px;
 }
