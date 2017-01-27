@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Formulaires</title>
+    <link rel="stylesheet" href="./css/form6.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+</head>
+
+<body>
+    <form>
+        <fieldset id="title">
+            <h1>Sign Up Now!</h1>
+            <p>Sign up and tell us what you think of the site!</p>
+        </fieldset>
+        <fieldset>
+            <span>1</span>
+            <h2>First Name & Address</h2>
+            <ul>
+                <li>
+                    <label for="name">Your Full Name</label>
+                </li>
+                <li>
+                    <input required type="text" name="first" />
+                </li>
+                <li>
+                    <label for="address">Address</label>
+                </li>
+                <li>
+                    <input required type="text" name="address" />
+                </li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <span>2</span>
+            <h2>Email & Phone</h2>
+            <ul>
+                <li>
+
+                    <label for="email">Email Address</label>
+                </li>
+                <li>
+                    <input required type="email" name="email" />
+                </li>
+                <li>
+                    <label for="phone">Phone Number</label>
+                </li>
+                <li>
+                    <input required type="tel" name="phone" />
+                </li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <span>3</span>
+            <h2>Passwords</h2>
+            <ul>
+                <li>
+                    <label for="password">Password</label>
+                </li>
+                <li>
+                    <input required type="password" name="password" />
+                </li>
+                <li>
+                    <label for="confpassword">Confirm Password</label>
+                </li>
+                <li>
+                    <input required type="password" name="confpassword" />
+                </li>
+            </ul>
+        </fieldset>
+        <button type="submit" name="valider">Valider</button>
+        <p id="check"><input type="checkbox" />
+            You agree to our Terms and Policy.
+        </p>
+    </form>
+</body>
+
+</html>
